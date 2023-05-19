@@ -1,0 +1,18 @@
+.pony {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    width: fit-content;
+    margin-bottom: 16px;
+    padding: 12px;
+    height: 400px;
+
+
+}
+.CLICK_ME {
+    height: 200px;
+    width: 100px;
+}
+.buttonshop {
+    height: 200px;
+    width: 100px;
+}
