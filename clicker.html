@@ -14,8 +14,8 @@
         </div>
 
 
-        <button class="buttonshop" id="shop">shop</button>
-        <button class="CLICK_ME" id="ClICK ME">CLICK ME +1</button>
+        <button class="" id="shop">shop</button>
+        <button class="button" id="ClICK ME">CLICK ME +1</button>
         <h2>score</h2>
 
 
@@ -36,11 +36,22 @@
 
 
 
+
 <script>
-const pi
-    let counter =0;
-    counter = counter +1;
-     document.getElementById('score').innerText = counter;
+    document.getElementById('button').onclick = () => {
+        // do something here
+    };let counter = 0;
+
+    document.getElementById('button').onclick = () => {
+        counter = counter + 1;
+        document.getElementById('score').innerText = counter;
+    };
+
+
+
+
+
+
 
 
 </script>

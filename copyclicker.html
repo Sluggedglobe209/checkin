@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <img src="https://media.gq.com/photos/56e71c0b14cbe0637b261d7f/16:9/w_2560%2Cc_limit/horseinsuit2.jpg" alt="Paris" class="center">
+</div>
+
+
+
+
+
+
+
+
+<style>
+    <style>
+    body {
+        background-color: powderblue;
+        font-size: 30px;
+        text-align: center;
+    }
+    #button {
+        width: 200px;
+        height: 200px;
+        background-color: gray;
+        border-radius: 100px;
+        margin: 0 auto;
+        line-height: 200px;
+        user-select: none;
+        margin-top: 100px;
+    }
+    #score {
+        margin-top: 50px;
+        font-size: 60px;
+        font-weight: bold;
+        color: green;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+</style>
+<div id="score">0</div>
+<div id="button">CLICK ME</div>
+<script>
+    let counter = 0;
+
+    document.getElementById('button').onclick = () => {
+        counter = counter + 1;
+        document.getElementById('score').innerText = counter;
+    };
+</script>
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+
+
+</style>
+
+</body>
+</html>
